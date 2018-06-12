@@ -1,0 +1,30 @@
+<html>
+
+<head>
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <input type="text" id="textInput" name="value" />
+  <input type='button' id="button" name="Ok" value="Ok" />
+  <p id="result" />
+  <script>
+
+  function sum(a) {
+    var b;
+    b = a + a;
+    return b;
+  }
+
+  var a = 2
+  document.write(sum(a));
+  document.querySelector("#button").onclick = function() {
+    document.querySelector("#result").innerHTML = "<b>" + document.querySelector("#textInput").value + "</b>";
+  }
+  </script>
+</body>
+
+</html>
