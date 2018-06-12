@@ -270,3 +270,6 @@ Using the functions provided by the browser sometimes gets a bit complicated bec
 * Ask the user for todo items using a HTML input element and a button
 * Add every item into a ul, li HTML list
 * If the user tick a element in the list mark the element as done
+
+### Previously on...
+https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/JavaScript_basics
